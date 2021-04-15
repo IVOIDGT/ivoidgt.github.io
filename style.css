@@ -1,0 +1,50 @@
+body {
+	background-image: url("silv.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	margin: 0;
+}
+.header {
+	padding: 40px;
+	text-align: center;
+	background-image: url(pupel.jpg);
+	color: white;
+	font-size: 30px;
+}
+.navi ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.navi li{
+	float: left;
+	width: 25%;
+}
+.navi a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.navi a:hover {
+	background-color: black;
+	color: lime;
+	transition: 0.5s;
+}
+.navi a.active {
+	background-color: black;
+}
+#astel {
+	float: left;
+	height: 10%;
+	width: 10%;
+	padding-right: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
